@@ -9,9 +9,10 @@ for(let i = 0; i < numbers.length; i ++) {
     } if (currentNumber % 7 === 0) {
         console.log("Monkey");
 // For numbers which are multiples of both five and seven print "ChickenMonkey".
-    } if else (currentNumber % 5 === 0 && currentNumber % 7 === 0) {
+    } if (currentNumber % 5 === 0 && currentNumber % 7 === 0) {
         console.log("Chicken Monkey");
-    }
-            
+        } else if (currentNumber % 5 != 0 && currentNumber % 7 != 0) {   
+            console.log(currentNumber);
+        }
 }
 
